@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">MyHttpURLConnection-master</string>
+    <string name="network_invalid">亲，您的网络不给力，请检查网络！</string>
+    <!-- HTTP　请求　 -->
+    <string name="requesting">正在发送请求……请稍候</string>
+    <string name="no_response">请求无响应，请从新发送</string>
+    <string name="server_exception">对不起，服务器出现异常请您稍后再访问</string>
+    <string name="responese_exception">响应异常，请重新发送请求</string>
+    <string name="timeout">请求连接超时，请重新发送请求</string>
+    <string name="no_network">当前网络不可用，请检查网络设置</string>
+    <string name="nullparamexception">空参数异常</string>
+    <string name="cancelrequest">已取消请求</string>
+    <string name="checking_captcha">正在验证……请稍候</string>
+    <string name="registering">正在注册……</string>
+    <string name="login_now">正在登录中……</string>
+    <string name="login_success">登录成功！</string>
+    <string name="loading">正在加载中……</string>
+    <string name="relogin">重新登录</string>
+    <string name="relogin_message">由于你长时间与服务器断开连接，您必须重新登录才能使用</string>
+    <string name="exit_app">退出程序</string>
+    <string name="error_pw_or_user">用户名或密码错误，请从新输入</string>
+
+</resources>
