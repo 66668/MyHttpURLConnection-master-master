@@ -76,7 +76,6 @@ public class MyCrashHandler implements UncaughtExceptionHandler {
 			Log.e(TAG, sb.toString());
 			// System.out.println(sb.toString());
 		} catch (Exception e1) {
-			// TODO Auto-generated catch block
 			e1.printStackTrace();
 		}
 
@@ -85,7 +84,7 @@ public class MyCrashHandler implements UncaughtExceptionHandler {
 			@Override
 			public void run() {
 				Looper.prepare();
-				Toast.makeText(context, "异常退出", 1).show();
+				Toast.makeText(context, "异常退出", Toast.LENGTH_SHORT).show();
 				Looper.loop();
 
 			}

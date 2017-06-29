@@ -13,8 +13,6 @@ import com.example.type2.MyCrashHandler;
 import com.example.type2.dialog.CustomDialog;
 import com.example.type2.utils.ThreadPoolService;
 
-import org.apache.http.client.CookieStore;
-
 import java.util.ArrayList;
 
 /**
@@ -27,7 +25,6 @@ public class MyApplication extends Application {
     public static MyApplication instance;// 实例化一个app
     private static ArrayList<Activity> activitystack;// activity启动栈，记录栈中的activity实例
     public static ThreadPoolService service;
-    public static CookieStore cookieStore;
 
     @Override
     public void onCreate() {
@@ -144,7 +141,7 @@ public class MyApplication extends Application {
                 Toast.makeText(context, "参数值不能为空", Toast.LENGTH_SHORT).show();
                 break;
             default:
-                Toast.makeText(context, "请求响应失败，错误号" + result, Toast.LENGTH_SHORT).show();
+                Toast.makeText(context, "请求响应失败，错误号=" + result, Toast.LENGTH_SHORT).show();
                 break;
         }
     }

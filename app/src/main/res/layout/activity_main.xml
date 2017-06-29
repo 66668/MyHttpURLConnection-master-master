@@ -12,7 +12,7 @@
         android:id="@+id/btn_type1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="访问网络方式一"/>
+        android:text="访问网络框架一"/>
 
     <TextView
         android:id="@+id/tv_type1"
@@ -25,7 +25,7 @@
         android:id="@+id/btn_type2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="访问网络方式一"/>
+        android:text="访问网络框架二"/>
 
     <TextView
         android:id="@+id/tv_type2"

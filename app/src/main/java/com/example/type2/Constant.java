@@ -10,6 +10,7 @@ package com.example.type2;
  */
 public class Constant {
 	// http请求状态码标志
+	public final static int STATAS_CODEONE = 1;// code {code:1；message："";result:""}
 	public final static int STATAS_OK = 200;// 请求OK
 	public final static int NO_RESPONSE = 400;// 请求无响应 找不到响应资源
 	public final static int S_EXCEPTION = 500;// 服务器出错

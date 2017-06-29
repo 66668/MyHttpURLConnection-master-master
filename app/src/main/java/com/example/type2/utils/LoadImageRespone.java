@@ -24,7 +24,6 @@ public class LoadImageRespone {
 
 	public LoadImageRespone() {
 		super();
-		// TODO Auto-generated constructor stub
 	}
 
 	public LoadImageRespone(Bitmap bitmap) {

@@ -2,7 +2,6 @@ package com.example.type2.utils;
 
 import android.os.Message;
 
-import com.example.type2.utils.ThreadPoolService.CusRunnable;
 
 /**
  * @Title: CustomRunnable.java
@@ -15,7 +14,7 @@ import com.example.type2.utils.ThreadPoolService.CusRunnable;
  * @param <Result>
  *            s任务执行完后的返回值数据类型
  */
-public abstract class CustomRunnable<Params, Result> implements CusRunnable {
+public abstract class CustomRunnable<Params, Result> implements ThreadPoolService.CusRunnable {
 
 	private Params[] params;
 	private Result result;

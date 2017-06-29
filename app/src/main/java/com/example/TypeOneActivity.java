@@ -33,7 +33,7 @@ public class TypeOneActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_type1);
         initView();
         btn1.setOnClickListener(new View.OnClickListener() {
             @Override
